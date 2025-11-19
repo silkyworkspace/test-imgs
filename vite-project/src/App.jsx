@@ -1,5 +1,6 @@
 import './App.css'
 import ImageLists from './components/ImageLists/ImageLists'
+import TextBreak from './components/textBreak/textBreak'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
 
       {/* ネコとウサギとイヌ */}
       <ImageLists names/>
+
+      <TextBreak />
     </>
   )
 }
