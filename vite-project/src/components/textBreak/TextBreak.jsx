@@ -1,4 +1,4 @@
-import textBreakLists from './textBreaLists';
+import textBreakLists from './textBreakLists';
 
 export default function TextBreak() {
     return (
