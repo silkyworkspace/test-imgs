@@ -1,5 +1,7 @@
 import './App.css'
+import AccordionList from './components/AccordionMenu/AccordionMenu'
 import ImageLists from './components/ImageLists/ImageLists'
+import MixBlendMode from './components/MixBlendMode/MixBlendMode'
 import TextBreak from './components/textBreak/textBreak'
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       <ImageLists names/>
 
       <TextBreak />
+
+      <AccordionList />
+
+      <MixBlendMode />
     </>
   )
 }

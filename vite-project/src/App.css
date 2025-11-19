@@ -1,3 +1,67 @@
 .blockSpan {
     display: block;
 }
+
+/****** AccordionList.jsx ******/
+.accordion {
+    width: 300px;
+    margin: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.content.open {
+    max-height: 500px;
+    /* 中身より大きい値を指定 */
+}
+
+.content-inner {
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+/****** MixBlendMode.jsx ******/
+div.mix-blend-container {
+    background-image: linear-gradient(90deg, rgba(168, 202, 240, 1), rgba(233, 240, 250, 1));
+    padding: 40px;
+    height: 40dvh;
+
+    position: relative;
+}
+
+h2.mix-blend-title {
+    mix-blend-mode: color-burn;
+    color: #aeaeae;
+    font-size: 3.4rem;
+    font-weight: bold;
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.mix-blend-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
